@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teknologi | EcoNesia</title>
+    <link href="./assets/css/output.css" rel="stylesheet" />
+    <link rel="icon" href="favicon econesia/favicon.ico"">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-inter bg-white overflow-x-hidden">
+    <div class="loading-bar"></div>
+
+    <nav
+      class="fixed w-full z-50 transition-all duration-500 bg-white/90 backdrop-blur-md shadow-sm"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4">
+          <div class="flex items-center space-x-3">
+            <div class="relative">
+              <div
+                class="w-12 h-12 bg-gradient-to-br from-green-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-lg glow-animation"
+              >
+               <img src="favicon econesia/favicon.ico" alt="favicon econesia" class="rounded-2xl">
+              </div>
+            </div>
+            <div>
+              <div class="text-xl font-black text-gray-900">EcoNesia</div>
+            </div>
+          </div>
+
+          <div class="hidden lg:flex items-center space-x-8">
+            <a
+              href="/index.html"
+              class="text-gray-700 hover:text-green-600 font-semibold transition-all duration-300 hover:scale-105"
+              >Beranda</a
+            >
+            <a
+              href="./index.html"
+              class="text-gray-700 hover:text-green-600 font-semibold transition-all duration-300 hover:scale-105"
+              >Inovasi</a
+            >
+            <a
+              href="./index.html"
+              class="text-gray-700 hover:text-green-600 font-semibold transition-all duration-300 hover:scale-105"
+              >Dampak</a
+            >
+            <a
+              href="./teknologi.html"
+              class="text-gray-700 hover:text-green-600 font-semibold transition-all duration-300 hover:scale-105"
+              >Teknologi</a
+            >
+          </div>
+
+          <button
+            id="mobile-menu-button"
+            class="lg:hidden text-gray-700 hover:text-green-600 transition-colors"
+          >
+            <i class="fas fa-bars text-2xl"></i>
+          </button>
+        </div>
+
+        <div
+          id="mobile-menu"
+          class="hidden lg:hidden bg-white/95 backdrop-blur-md rounded-2xl shadow-xl p-6 mb-4 slide-in"
+        >
+          <div class="flex flex-col space-y-4">
+            <a
+              href="./index.html"
+              class="text-gray-700 hover:text-green-600 font-semibold py-2 transition-all duration-300"
+              >Beranda</a
+            >
+            <a
+              href="./index.html"
+              class="text-gray-700 hover:text-green-600 font-semibold py-2 transition-all duration-300"
+              >Inovasi</a
+            >
+            <a
+              href="./index.html"
+              class="text-gray-700 hover:text-green-600 font-semibold py-2 transition-all duration-300"
+              >Dampak</a
+            >
+            <a
+              href="#teknologi"
+              class="text-gray-700 hover:text-green-600 font-semibold py-2 transition-all duration-300"
+              >Teknologi</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="min-h-screen pt-20 bg-gradient-to-br from-green-50 via-blue-50 to-emerald-100 relative overflow-hidden"
+    >
+      <h2
+        class="text-center text-5xl mt-4 font-black text-gray-900 mb-6 bounce-in"
+      >
+        <span class="text-gradient">Inovasi Teknologi</span><br />
+        untuk Alam Berkelanjutan
+      </h2>
+      <p
+        class="text-center text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed fade-in-up"
+      >
+        Empowering sustainability through cutting-edge technology
+      </p>
+
+      <div class="grid lg:grid-cols-3 gap-8 mb-16 mt-14 pt-4 animate-stagger">
+        <div class="group relative card-entrance" style="animation-delay: 0s">
+          <div
+            class="absolute inset-0 bg-gradient-to-r rounded-3xl blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"
+          ></div>
+          <div
+            class="relative bg-white rounded-3xl p-8 shadow-xl card-hover border border-gray-100"
+          >
+            <div
+              class="bg-gradient-to-br from-green-400 to-blue-500 rounded-2xl flex items-center justify-center mb-6 shadow-lg"
+            >
+              <img
+                src="./assets/images/cierra-henderson-8D_LseCHjdc-unsplash.jpg"
+                alt="gambar satelite"
+                class="w-full h-48 object-cover rounded-2xl"
+              />
+            </div>
+            <h3 class="mb-7 text-center font-black text-2xl">
+              Monitor Satellite
+            </h3>
+            <p class="text-gray-800 text-xl">
+              Pemantauan deforestasi real-time dengan teknologi satelit resolusi
+              tinggi untuk melacak perubahan hutan secara akurat
+            </p>
+          </div>
+        </div>
+
+        <div class="group relative card-entrance" style="animation-delay: 0.1s">
+          <div
+            class="absolute inset-0 bg-gradient-to-r rounded-3xl blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"
+          ></div>
+          <div
+            class="relative bg-white rounded-3xl p-8 shadow-xl card-hover border border-gray-100"
+          >
+            <div
+              class="bg-gradient-to-br from-purple-400 to-pink-500 rounded-2xl flex items-center justify-center mb-6 shadow-lg"
+            >
+              <img
+                src="./assets/images/zulfugar-karimov-xm6dNdRG2vw-unsplash.jpg"
+                alt="gambar AI"
+                class="w-full h-48 object-cover rounded-2xl"
+              />
+            </div>
+            <h3 class="mb-7 text-center font-black text-2xl">AI Analysis</h3>
+            <p class="text-gray-800 text-xl">
+              Kecerdasan buatan untuk analisis prediktif dan optimasi sumber
+              daya alam dengan akurasi tinggi, menganalisis big data dari
+              berbagai sumber
+            </p>
+          </div>
+        </div>
+
+        <div class="group relative card-entrance" style="animation-delay: 0.2s">
+          <div
+            class="absolute inset-0 bg-gradient-to-r rounded-3xl blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"
+          ></div>
+          <div
+            class="relative bg-white rounded-3xl p-8 shadow-xl card-hover border border-gray-100"
+          >
+            <div
+              class="bg-gradient-to-br from-orange-400 to-red-500 rounded-2xl flex items-center justify-center mb-6 shadow-lg"
+            >
+              <img
+                src="./assets/images/eugene-zh-AYGOzHwY-QA-unsplash.jpg"
+                alt="gambar drone reboisasi"
+                class="w-full h-52 object-cover rounded-2xl"
+              />
+            </div>
+            <h3 class="mb-7 text-center font-black text-xl">
+              Armada Drone untuk Reboisasi Presisi
+            </h3>
+            <p class="text-gray-800 text-xl">
+              Teknologi drone kami merevolusi proses reboisasi dengan sistem
+              penanaman presisi yang menanam hingga 10.000 pohon per hari dengan
+              akurasi tinggi
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 bg-emerald-600">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-4xl font-black text-center mb-12 bounce-in">
+          Bukti <span class="text-yellow-300">Keberhasilan</span>
+        </h2>
+        <p class="text-lg text-gray-100 max-w-2xl mx-auto mt-4 mb-2 fade-in-up">
+          Hasil nyata implementasi teknologi EcoNesia dalam melestarikan alam
+          Indonesia
+        </p>
+
+        <div
+          class="success-card group rounded-2xl overflow-hidden shadow-lg cursor-pointer flex items-center justify-center relative mx-auto mt-4 zoom-in"
+          style="
+            background: linear-gradient(
+                135deg,
+                rgba(16, 185, 129, 0.85) 0%,
+                rgba(5, 150, 105, 0.85) 100%
+              ),
+              url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')
+                center/cover;
+          "
+        >
+          <div
+            class="text-center text-white p-6 md:p-12 lg:p-16 relative z-10 w-full max-w-4xl mx-auto"
+          >
+            <div class="card-icon mb-6 md:mb-8 lg:mb-12">
+              <i class="fas fa-trophy text-5xl md:text-6xl lg:text-7xl"></i>
+            </div>
+
+            <div class="card-content hidden md:block">
+              <h3
+                class="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 lg:mb-8"
+              >
+                Sukses Di Kalimantan Timur <br />
+                <span class="text-green-200"
+                  >45% Pengurangan deforestasi dalam 6 bulan</span
+                >
+              </h3>
+
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 mb-8">
+                <div class="text-left">
+                  <h4 class="text-xl font-semibold mb-4 text-green-200">
+                    Hasil yang dicapai
+                  </h4>
+                  <ul class="space-y-3 text-lg">
+                    <li class="flex items-start space-x-3">
+                      <i
+                        class="fas fa-check-circle text-green-200 mt-1 shrink-0"
+                      ></i>
+                      <span>45% penurunan deforestasi illegal</span>
+                    </li>
+                    <li class="flex items-start space-x-3">
+                      <i
+                        class="fas fa-check-circle text-green-200 mt-1 shrink-0"
+                      ></i>
+                      <span>500+ hektar hutan berhasil diselamatkan</span>
+                    </li>
+                    <li class="flex items-start space-x-3">
+                      <i
+                        class="fas fa-check-circle text-green-200 mt-1 shrink-0"
+                      ></i>
+                      <span>12 titik deforestasi terdeteksi & tercegah</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="text-left">
+                  <h4 class="text-xl font-semibold mb-4 text-green-200">
+                    Teknologi yang digunakan
+                  </h4>
+                  <ul class="space-y-3 text-lg">
+                    <li class="flex items-start space-x-3">
+                      <i
+                        class="fas fa-satellite text-green-200 mt-1 shrink-0"
+                      ></i>
+                      <span>Monitoring satelit real-time</span>
+                    </li>
+                    <li class="flex items-start space-x-3">
+                      <i class="fas fa-robot text-green-200 mt-1 shrink-0"></i>
+                      <span>AI predictive analytics</span>
+                    </li>
+                    <li class="flex items-start space-x-3">
+                      <i class="fas fa-drone text-green-200 mt-1 shrink-0"></i>
+                      <span>Drone surveillance patrol</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="bg-green-800 bg-opacity-50 rounded-xl p-6">
+                <p class="text-lg italic">
+                  "Berkat teknologi EcoNesia, kami bisa mendeteksi dan mencegah
+                  kerusakan hutan sebelum terjadi. Sistem peringatan dini mereka
+                  menyelamatkan ribuan hektar hutan kami."
+                </p>
+                <p class="text-green-200 font-semibold mt-4">
+                  - Bapak Ahmad, Kepala Desa Setempat
+                </p>
+              </div>
+            </div>
+
+            <div class="md:hidden">
+              <h3 class="text-2xl font-bold mb-6">
+                Sukses di Kalimantan Timur
+              </h3>
+
+              <div class="space-y-4 text-left">
+                <div class="bg-green-800 bg-opacity-50 rounded-lg p-4">
+                  <div class="text-3xl font-bold text-green-200 mb-2">45%</div>
+                  <div class="text-lg">Pengurangan Deforestasi</div>
+                  <div class="text-sm text-green-200 mt-1">Dalam 6 bulan</div>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-4">
+                <div
+                  class="bg-green-800 bg-opacity-40 rounded-lg p-3 text-center"
+                >
+                  <div class="text-xl font-bold">500+</div>
+                  <div class="text-sm">Hektor Diselamatkan</div>
+                </div>
+
+                <div
+                  class="bg-green-800 bg-opacity-40 rounded-lg p-3 text-center"
+                >
+                  <div class="text-xl font-bold">12</div>
+                  <div class="text-sm">Titik Dicegah</div>
+                </div>
+              </div>
+
+              <p class="text-sm italic text-green-200 mt-4">
+                "Teknologi EcoNesia menyelamatkan hutan kami dengan sistem
+                deteksi dini yang akurat."
+              </p>
+            </div>
+          </div>
+
+          <div class="hidden md:block lg:hidden">
+            <h3 class="text-2xl font-bold mb-6">
+              Sukses 45% Pengurangan Deforestasi
+            </h3>
+
+            <div class="grid grid-cols-2 gap-6 text-left">
+              <div>
+                <h4 class="font-semibold mb-3 text-green-200">Hasil:</h4>
+
+                <ul class="space-y-2 text-sm">
+                  <li>500+ Hektar Diselamatkan</li>
+                  <li>12 Titik Dicegah</li>
+                  <li>6 Bulan implementasi</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4 class="font-semibold mb-3 text-green-200">Teknologi:</h4>
+                <ul class="space-y-2 text-sm">
+                  <li>• Monitoring satelit</li>
+                  <li>• AI analytics</li>
+                  <li>• Drone patrol</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 px-4 bg-gray-50">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-16 fade-in-up">
+          <h2
+            class="text-3xl md:text-4xl font-bold text-gray-800 mb-4 bounce-in"
+          >
+            Teknologi <span class="text-green-600">vs</span> Tradisional
+          </h2>
+          <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+            Perbandingan efektivitas antara metode konvensional dan solusi
+            teknologi EcoNesia
+          </p>
+        </div>
+
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 animate-stagger"
+        >
+          <div
+            class="comparison-card bg-white rounded-2xl shadow-lg border-l-4 border-red-500 overflow-hidden card-entrance"
+            style="animation-delay: 0s"
+          >
+            <div class="p-8">
+              <div class="flex items-center justify-between mb-6">
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-800 mb-2">
+                    Metode Tradisional
+                  </h3>
+                  <p class="text-red-600 font-semibold">
+                    Manual dan konvensional
+                  </p>
+                </div>
+              </div>
+
+              <div class="space-y-6">
+                <div class="stat-item">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-700 font-medium"
+                      >Waktu Response</span
+                    >
+                    <span
+                      class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-semibold"
+                      >7-14 Hari</span
+                    >
+                  </div>
+
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-3 overflow-hidden shadow-sm"
+                  >
+                    <div
+                      class="bg-red-500 h-3 rounded-full progress-bar transition-all duration-800"
+                      style="width: 30%"
+                    ></div>
+                  </div>
+
+                  <p class="text-sm text-gray-500 mt-1">
+                    Deteksi perubahan membutuhkan waktu lama
+                  </p>
+                </div>
+
+                <div class="stat-item">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-700 font-medium">Akurasi Data</span>
+                    <span
+                      class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-semibold"
+                      >65%</span
+                    >
+                  </div>
+
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-3 overflow-hidden shadow-sm"
+                  >
+                    <div
+                      class="bg-red-500 h-3 rounded-full progress-bar transition-all duration-800"
+                      style="width: 65%"
+                    ></div>
+                  </div>
+
+                  <p class="text-sm text-gray-500 mt-1">
+                    Terbatas oleh kemampuan manusia dan cuaca
+                  </p>
+                </div>
+
+                <div class="stat-item">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-700 font-medium">Cakupan Area</span>
+                    <span
+                      class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-semibold"
+                      >Terbatas</span
+                    >
+                  </div>
+
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-3 overflow-hidden shadow-sm"
+                  >
+                    <div
+                      class="bg-red-500 h-3 rounded-full progress-bar transition-all duration-800"
+                      style="width: 40%"
+                    ></div>
+                  </div>
+
+                  <p class="text-sm text-gray-500 mt-1">
+                    Hanya area yang mudah diakses
+                  </p>
+                </div>
+
+                <div class="stat-item">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-700 font-medium"
+                      >Biaya Operasional</span
+                    >
+                    <span
+                      class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-semibold"
+                      >Tinggi</span
+                    >
+                  </div>
+
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-3 overflow-hidden shadow-sm"
+                  >
+                    <div
+                      class="bg-red-500 h-3 rounded-full progress-bar transition-all duration-800"
+                      style="width: 80%"
+                    ></div>
+                  </div>
+
+                  <p class="text-sm text-gray-500 mt-1">
+                    SDM, transportasi, dan waktu yang besar
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-red-50 border-t border-red-200 p-6">
+              <h4 class="font-semibold text-red-800 mb-3">
+                Keterbatasan Utama
+              </h4>
+
+              <ul class="space-y-2 text-red-700">
+                <li class="flex items-center space-x-2">
+                  <i class="fas fa-times text-red-500"></i>
+                  <span>Respon lambat terhadap perubahan</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                  <i class="fas fa-times text-red-500"></i>
+                  <span>Data tidak real-time</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                  <i class="fas fa-times text-red-500"></i>
+                  <span>Cakupan monitoring terbatas</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="comparison-card bg-white rounded-2xl shadow-lg border-l-4 border-green-500 overflow-hidden card-entrance"
+            style="animation-delay: 0.1s"
+          >
+            <div class="p-8">
+              <div class="flex items-center justify-between mb-6">
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-800 mb-2">
+                    Teknologi EcoNesia
+                  </h3>
+                  <p class="font-semibold text-green-600">Digital & Otomatis</p>
+                </div>
+              </div>
+
+              <div class="space-y-6">
+                <div class="stat-item">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-700 font-medium"
+                      >Waktu Response</span
+                    >
+                    <span
+                      class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold"
+                      >Real-time</span
+                    >
+                  </div>
+
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-3 overflow-hidden shadow-sm"
+                  >
+                    <div
+                      class="bg-green-500 h-3 rounded-full progress-bar transition-all duration-800"
+                      style="width: 95%"
+                    ></div>
+                  </div>
+
+                  <p class="text-sm text-gray-500 mt-1">
+                    Deteksi instan dengan notifikasi
+                  </p>
+                </div>
+
+                <div class="stat-item">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-700 font-medium">Akurasi Data</span>
+                    <span
+                      class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold"
+                      >98%</span
+                    >
+                  </div>
+
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-3 overflow-hidden shadow-sm"
+                  >
+                    <div
+                      class="bg-green-500 h-3 rounded-full progress-bar transition-all duration-800"
+                      style="width: 98%"
+                    ></div>
+                  </div>
+
+                  <p class="text-sm text-gray-500 mt-1">
+                    AI-powered analytics dengan presisi tinggi
+                  </p>
+                </div>
+
+                <div class="stat-item">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-700 font-medium">Cakupan Area</span>
+                    <span
+                      class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold"
+                      >Tak terbatas</span
+                    >
+                  </div>
+
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-3 overflow-hidden shadow-sm"
+                  >
+                    <div
+                      class="bg-green-500 h-3 rounded-full progress-bar transition-all duration-800"
+                      style="width: 100%"
+                    ></div>
+                  </div>
+
+                  <p class="text-sm text-gray-500 mt-1">
+                    Satellit + drone mencakup seluruh wilayah
+                  </p>
+                </div>
+
+                <div class="stat-item">
+                  <div class="flex justify-between items-center mb-2">
+                    <span class="text-gray-700 font-medium"
+                      >Biaya Operasional</span
+                    >
+                    <span
+                      class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold"
+                      >Efisien</span
+                    >
+                  </div>
+
+                  <div
+                    class="w-full bg-gray-200 rounded-full h-3 overflow-hidden shadow-sm"
+                  >
+                    <div
+                      class="bg-green-500 h-3 rounded-full progress-bar transition-all duration-800"
+                      style="width: 35%"
+                    ></div>
+                  </div>
+
+                  <p class="text-sm text-gray-500 mt-1">
+                    Otomatisasi mengurangi biaya SDM
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-green-50 border-t border-green-200 p-6">
+              <h4 class="font-semibold text-green-800 mb-3">Kelebihan Utama</h4>
+
+              <ul class="space-y-2 text-green-700">
+                <li class="flex items-center space-x-2">
+                  <i class="fas fa-check text-green-500"></i>
+                  <span>Monitoring 24/7 real-time</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                  <i class="fas fa-check text-green-500"></i>
+                  <span>Prediksi dan pencegahan dini</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                  <i class="fas fa-check text-green-500"></i>
+                  <span>Skalabilitas tanpa batas</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8">
+          <div>
+            <div class="flex items-center space-x-3 mb-6">
+              <div
+                class="w-12 h-12 bg-gradient-to-br from-green-500 to-blue-600 rounded-2xl flex items-center justify-center"
+              >
+                <i class="fas fa-leaf text-white text-xl"></i>
+              </div>
+              <div>
+                <div class="text-xl font-black">EcoNesia</div>
+              </div>
+            </div>
+            <p class="text-gray-400 mb-6 leading-relaxed">
+              Memimpin inovasi digital untuk kelestarian alam Indonesia yang
+              berkelanjutan.
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="w-10 h-10 bg-gray-800 hover:bg-green-600 rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="#"
+                class="w-10 h-10 bg-gray-800 hover:bg-blue-500 rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a
+                href="#"
+                class="w-10 h-10 bg-gray-800 hover:bg-red-500 rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
+              >
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a
+                href="#"
+                class="w-10 h-10 bg-gray-800 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-lg mb-6">Tautan Cepat</h3>
+            <ul class="space-y-3">
+              <li>
+                <a
+                  href="./index.html"
+                  class="text-gray-400 hover:text-green-400 transition-colors duration-300"
+                  >Beranda</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./index.html"
+                  class="text-gray-400 hover:text-green-400 transition-colors duration-300"
+                  >Inovasi Kami</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./index.html"
+                  class="text-gray-400 hover:text-green-400 transition-colors duration-300"
+                  >Dampak</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./teknologi.html"
+                  class="text-gray-400 hover:text-green-400 transition-colors duration-300"
+                  >Teknologi</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-lg mb-6">Kontak</h3>
+            <ul class="space-y-3 text-gray-400">
+              <li class="flex items-center space-x-3">
+                <i class="fas fa-map-marker-alt text-green-400"></i>
+                <span>Jakarta, Indonesia</span>
+              </li>
+              <li class="flex items-center space-x-3">
+                <i class="fas fa-phone text-green-400"></i>
+                <span>+62 21 1234 5678</span>
+              </li>
+              <li class="flex items-center space-x-3">
+                <i class="fas fa-envelope text-green-400"></i>
+                <span>hello@econesia.id</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400"
+        >
+          <p>
+            &copy; <span id="current-year">2025</span> EcoNesia Seluruh hak
+            cipta dilindungi.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
